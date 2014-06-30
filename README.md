@@ -5,6 +5,8 @@ A simple package that makes it a breeze to get a Node.js server up and running. 
 
 Once you have the package installed, you can run a simple server using the code below:
 
+    var server = require("ferb");
+    
     var s = server();
 
 	 // Handle a GET request
